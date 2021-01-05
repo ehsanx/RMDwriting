@@ -1,0 +1,25 @@
+---
+title: "Adding References"
+output: html_document
+bibliography: references.bib 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+We used R in all of our analyses [@R-base].
+
+Propensity score reference [@haukoos2015propensity].
+
+See this [site](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html) for further discussion.
+
+To get the bib entry, go to google scholar, settings,  Bibliography manager and then choose BibTeX.
+
+
+# References
+
+<div id="refs"></div>
+
+# Appendix
